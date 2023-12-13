@@ -8,8 +8,8 @@ rapDict = {"url": "https://api.spotify.com/v1/search?q=genre%Rap&type=track", "n
 rockDict = {"url": "https://api.spotify.com/v1/search?q=genre%Rock&type=track", "num": 0}
 popDict = {"url": "https://api.spotify.com/v1/search?q=genre%Pop&type=track", "num": 0}
 
-#Nori: This dict is almost identical to the one above, only using a getPlaylistItems call rather than using the Spotify search API
-#Nori: Defined the limit to be 20 so as to not have to change the built-in offset code
+#This dict is almost identical to the one above, only using a getPlaylistItems call rather than using the Spotify search API
+#Defined the limit to be 20 so as to not have to change the built-in offset code
 rnbDict = {"url": "https://api.spotify.com/v1/playlists/37i9dQZF1DX4SBhb3fqCJd/tracks?limit=50", "num": 0}
 salsaDict = {"url": "https://api.spotify.com/v1/playlists/37i9dQZF1DX4qKWGR9z0LI/tracks?limit=50", "num": 0}
 reggaetonDict = {"url": "https://api.spotify.com/v1/playlists/37i9dQZF1DWY7IeIP1cdjF/tracks?limit=50", "num": 0}
@@ -21,7 +21,7 @@ rockDict = {"url": "https://api.spotify.com/v1/playlists/37i9dQZF1DXcF6B6QPhFDv/
 phonkDict = {"url": "https://api.spotify.com/v1/playlists/37i9dQZF1DWWY64wDtewQt/tracks?limit=50", "num": 0}
 jazzDict = {"url": "https://api.spotify.com/v1/playlists/37i9dQZF1DX7YCknf2jT6s/tracks?limit=50", "num": 0}
 #add the dictionaries to a list of dicts called fullGenreList
-#Nori: add the Playlist-derived dictionaries to fullGenreListPlaylist
+#add the Playlist-derived dictionaries to fullGenreListPlaylist
 fullGenreList = [rapDict, rockDict, popDict]
 fullGenreListPlaylist = [rnbDict, salsaDict, reggaetonDict, metalDict, countryDict, rapDict, classicalDict, rockDict, phonkDict, jazzDict]
 
