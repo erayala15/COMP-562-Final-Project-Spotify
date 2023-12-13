@@ -5,7 +5,7 @@ The aim of this machine learning project is to develop a model that can predict 
 maquinaprender.ipynb contains our code, and Final Project Report is a copy of our paper. 
 
 ## Members
-Ethan David Rayala - 730396453
-Kevin Dai - 730410536
-Ahmadou Bamba Diouf - 730528190
-Bodhi Harmony - 730394978
+Ethan David Rayala - 730396453\
+Kevin Dai - 730410536\
+Ahmadou Bamba Diouf - 730528190\
+Bodhi Harmony - 730394978\
