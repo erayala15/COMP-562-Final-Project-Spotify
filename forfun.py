@@ -167,7 +167,7 @@ for i in range(0,5,1): #loop through each main segment
             data['audio_features'] = data['audio_features']+tmpdata['audio_features'] #append to our building json object
 
         
-    #LAST ONE TO GET REMAINDER this one is really really strange but whatev will TODO later
+    #LAST ONE TO GET REMAINDER 
     if(iterationDict['xtra'] > 0):
         if(i == 4):
             #get the last few songs
@@ -179,7 +179,7 @@ for i in range(0,5,1): #loop through each main segment
                 for k in range(0, iterationDict['xtra'],1):
                     full_url += olddata[(iterationDict["reg"]*5)+k]+","
                     #SHWHAT
-                    # print(str(olddata[(iterationDict["reg"]*5)+k])) #TODO WHY NO WORK
+                    # print(str(olddata[(iterationDict["reg"]*5)+k])) 
             
             #print("LAST")
             #print(full_url)
