@@ -8,4 +8,4 @@ maquinaprender.ipynb contains our code, and Final Project Report is a copy of ou
 Ethan David Rayala - 730396453\
 Kevin Dai - 730410536\
 Ahmadou Bamba Diouf - 730528190\
-Bodhi Harmony - 730394978\
+Bodhi Harmony - 730394978
