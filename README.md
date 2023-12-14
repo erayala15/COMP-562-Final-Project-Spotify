@@ -4,7 +4,7 @@ This machine learning project focuses on creating a model capable of identifying
 
 
 ## Main Files
-model.ipynb contains our code, and paper.ipynb is a copy of our paper. 
+model.ipynb contains our code, and Final Project Report.pdf is a copy of our paper. 
 
 ## Members
 Ethan David Rayala - 730396453\
