@@ -300,7 +300,7 @@ lastBig = {'bruh': ( bigMetal + bigJazz + bigReggaeton + bigSalsa + bigCountry)}
 
 #[rnbDict, salsaDict, reggaetonDict, metalDict, countryDict, rapDict, classicalDict, rockDict, phonkDict, jazzDict]
 #WRITE TO FILE
-with open('funbigfile.json', 'w') as f: #btw the 'w' parameter here clears whatev is in the file
+with open('songdata.json', 'w') as f: #btw the 'w' parameter here clears whatev is in the file
     json.dump(lastBig, f, ensure_ascii=False, indent=4)
     f.close()
 
